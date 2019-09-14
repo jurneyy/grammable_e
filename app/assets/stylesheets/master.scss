@@ -73,18 +73,29 @@ input {
   margin-top: 10px;
 }
 
-.input.boolean {
-  margin-left: 18px;
+.remember {
+  margin-left: 20px;
   margin-top: 5px;
 }
 
-.input.boolean label {
-  margin-top: 5px;
-  line-height: 44px;
+.gram-actions {
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 20px;
+  margin-left: auto;
 }
 
-.input #user_remember_me {
- margin-top: 5px;
- line-height: 44px;
+.comments {
+  padding: 20px;
+}
 
+.comment {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.comment_handle {
+  color: #125688;
+  font-weight: bold;
+  font-size: 18px;
 }
