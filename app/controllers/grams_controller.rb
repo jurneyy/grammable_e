@@ -30,11 +30,9 @@ class GramsController < ApplicationController
 		@grams = Gram.all
 	end 
 
-  def show
+	def show
     @gram = Gram.find_by_id(params[:id])
-    if @gram.blank?
-    	return render_not_found if @gram.blank?
-  	end
+    return render_not_found if @gram.blank?
   end
 
   def edit
